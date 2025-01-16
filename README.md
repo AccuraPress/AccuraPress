@@ -24,5 +24,5 @@ AccuraPress aims to provide a robust CMS that empowers users to create engaging 
 
 ### Contributing
 
-AccuraPress is an open-source project, and we welcome contributions from the community! If you'd like to contribute code, report issues, or suggest new features, please create an [issue](issues) on this repository.
+AccuraPress is an open-source project, and we welcome contributions from the community! If you'd like to contribute code, report issues, or suggest new features, please create an [issue](../../issues) on this repository.
 
