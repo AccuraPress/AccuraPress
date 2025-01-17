@@ -17,7 +17,7 @@ AccuraPress aims to provide a robust CMS that empowers users to create engaging 
 
 ### Getting Started
 
-1. Clone the repository: `git clone https://github.com/AccuraPress/accurapress.git`
+1. Clone the repository: `git clone https://github.com/hyperclock/AccuraPress.git`
 2. Install dependencies using Composer: `composer install`
 3. Configure your environment (e.g., database settings)
 4. Start developing with Nette's built-in web server or a WAMP/LAMP stack
