@@ -1,0 +1,31 @@
+parameters:
+    db_dsn: %env(DB_DSN)%
+    db_user: %env(DB_USER)%
+    db_password: %env(DB_PASSWORD)% 
+
+application:
+	errorPresenter:
+		4xx: Error:Error4xx
+		5xx: Error:Error5xx
+	mapping: App\UI\*\**Presenter
+
+
+# Database configuration using environment variables
+   database:
+       dsn: '%db_dsn%'
+       user: '%db_user%'
+       password: '%db_password%'
+
+
+latte:
+	strictTypes: yes
+	strictParsing: yes
+	extensions:
+		- App\UI\Accessory\LatteExtension
+
+
+di:
+	export:
+		parameters: no
+		tags: no
+
